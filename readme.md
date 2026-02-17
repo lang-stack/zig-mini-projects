@@ -1,10 +1,8 @@
 # Mini Projects In Zig
 
-I've am learning Zig language. To master it, I've asked ChatGPT to give me 20 mini projects that will take me from beginner to advanced level. Below are the projects, I've organized from what it gave me.
+I've been learning Zig language. To master it, I've asked ChatGPT to give me 20 mini projects that will take me from beginner to advanced level. Below are the projects, I've organized from what it gave me.
 
 ## LEVEL 1 — Core CLI & Data Handling
-
----
 
 ## 1️. CLI Calculator
 
@@ -40,8 +38,6 @@ Error: DivisionByZero
 - No floating-point support
 - No interactive mode
 
----
-
 ## 2️. Word Count Tool (`zwc`)
 
 ### Use Case
@@ -72,8 +68,6 @@ Bytes: 5600
 
 - No colored output
 - No recursive directory support
-
----
 
 ## 3️. Growable String Builder
 
@@ -107,8 +101,6 @@ builder.append(" World");
 ### Non-Goals
 
 - No Unicode validation
-
----
 
 ## 4️. Config File Loader
 
@@ -146,8 +138,6 @@ Config { port = 8080, debug = true }
 - No nested config
 - No arrays
 
----
-
 ## 5️. CSV Parser
 
 ### Use Case
@@ -169,11 +159,7 @@ name,age
 zig,7
 ```
 
----
-
 # LEVEL 2 — Data Structures & Memory
-
----
 
 ## 6️. Generic Dynamic Array
 
@@ -198,8 +184,6 @@ var list = Array(i32);
 list.push(10);
 ```
 
----
-
 ## 7️. Linked List Library
 
 ### Use Case
@@ -214,8 +198,6 @@ Alternative to dynamic arrays for unknown sizes.
 - remove(value)
 - iterate
 - free all nodes
-
----
 
 ## 8️. RPN Calculator
 
@@ -238,8 +220,6 @@ Evaluate postfix math expressions.
 Result: 2
 ```
 
----
-
 ## 9️. Arena Allocator
 
 ### Use Case
@@ -252,8 +232,6 @@ Fast allocation for short-lived objects.
 - Serve aligned allocations
 - Reset function
 - Track used bytes
-
----
 
 ## 10. Logger Library
 
@@ -268,11 +246,7 @@ Structured logging for CLI apps.
 - Timestamp
 - Output to stdout or file
 
----
-
 # LEVEL 3 — Systems Programming
-
----
 
 ## 1️1. Mini Grep
 
@@ -287,8 +261,6 @@ Search logs for patterns.
 - Print matching lines
 - Print line numbers
 - Efficient scanning
-
----
 
 ## 1️2. Minimal JSON Parser
 
@@ -306,8 +278,6 @@ Parse small JSON config.
 - Reject invalid JSON
 - No external library
 
----
-
 ## 1️3. TCP Echo Server
 
 ### Use Case
@@ -320,8 +290,6 @@ Learn networking fundamentals.
 - Accept multiple clients
 - Echo messages
 - Close cleanly on disconnect
-
----
 
 ## 1️4. Thread Pool
 
@@ -337,8 +305,6 @@ Parallel job execution.
 - Graceful shutdown
 - No race conditions
 
----
-
 ## 1️5. Parallel File Hasher
 
 ### Use Case
@@ -352,11 +318,7 @@ Speed up large file hashing.
 - Combine SHA-256 hashes
 - Print final hash
 
----
-
 # LEVEL 4 — Advanced Systems Design
-
----
 
 ## 1️6. Plugin System
 
@@ -371,8 +333,6 @@ Extend program without recompiling.
 - Call function dynamically
 - Handle load errors safely
 
----
-
 ## 1️7. Mini Shell
 
 ### Use Case
@@ -385,8 +345,6 @@ Understand process control.
 - Execute commands
 - Support simple pipe (`|`)
 - Exit command
-
----
 
 ## 1️8. Text Buffer Engine
 
@@ -402,8 +360,6 @@ Core of a text editor.
 - Save file
 - Efficient resizing
 
----
-
 ## 1️9. Undo/Redo System
 
 ### Use Case
@@ -416,8 +372,6 @@ Extend text editor safely.
 - Stack-based redo
 - Memory safe
 - No leaks
-
----
 
 ## 2️0. Persistent Key-Value Store
 
@@ -436,8 +390,6 @@ Lightweight embedded database.
 - Persist to disk
 - Load on startup
 - Handle corrupted file safely
-
----
 
 # If You Finish All 20 Properly
 
